@@ -29,7 +29,7 @@
                         <!--                        二次菜单-->
                         <el-menu-item :index="subItem.id+''" v-for="subItem in item.children" :key="subItem.id">
                             <template slot="title">
-                                <!--                            图标1-->
+                                <!--                            图标2-->
                                 <i class="el-icon-menu"></i>
                                 <!--                            文本-->
                                 <span>{{subItem.authName}}</span>
